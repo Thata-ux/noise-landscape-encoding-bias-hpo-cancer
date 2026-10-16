@@ -1,0 +1,39 @@
+reference,optimizer,metric,median Δ [95% CI],Δ > 0,r,p Holm
+Random Search,BFO,wF1,"0.0000 [-0.0015, 0.0020]",70/140,0.07,0.459
+Random Search,BFO,Minority F1,"-0.0008 [-0.0046, 0.0010]",64/140,-0.04,1.000
+Random Search,BFO (mirrored),wF1,"0.0012 [0.0003, 0.0025]",85/140,0.22,0.052
+Random Search,BFO (mirrored),Minority F1,"0.0012 [-0.0028, 0.0035]",74/140,0.05,1.000
+Random Search,HHO,wF1,"0.0055 [0.0036, 0.0071]",103/140,0.64,< 0.001
+Random Search,HHO,Minority F1,"0.0085 [0.0034, 0.0114]",93/140,0.41,< 0.001
+Random Search,HHO (mirrored),wF1,"0.0020 [0.0005, 0.0037]",83/140,0.24,0.038
+Random Search,HHO (mirrored),Minority F1,"0.0021 [-0.0029, 0.0066]",77/140,0.12,0.600
+Random Search,SMA,wF1,"0.0068 [0.0049, 0.0099]",109/140,0.71,< 0.001
+Random Search,SMA,Minority F1,"0.0059 [0.0027, 0.0104]",89/140,0.29,0.016
+Random Search,SMA (mirrored),wF1,"-0.0035 [-0.0051, -0.0026]",34/140,-0.64,< 0.001
+Random Search,SMA (mirrored),Minority F1,"-0.0060 [-0.0101, -0.0023]",54/140,-0.3,0.011
+Random Search,SMAc,wF1,"-0.0042 [-0.0057, -0.0026]",37/140,-0.63,< 0.001
+Random Search,SMAc,Minority F1,"-0.0033 [-0.0076, 0.0001]",59/140,-0.19,0.225
+XGBoost default,RS,wF1,"-0.0016 [-0.0037, -0.0000]",58/140,-0.14,0.445
+XGBoost default,RS,Minority F1,"0.0131 [0.0083, 0.0182]",99/140,0.48,< 0.001
+XGBoost default,BFO,wF1,"-0.0009 [-0.0028, 0.0013]",64/140,-0.04,0.679
+XGBoost default,BFO,Minority F1,"0.0140 [0.0080, 0.0203]",100/140,0.5,< 0.001
+XGBoost default,BFO (mirrored),wF1,"0.0014 [-0.0007, 0.0030]",77/140,0.13,0.445
+XGBoost default,BFO (mirrored),Minority F1,"0.0186 [0.0117, 0.0248]",99/140,0.59,< 0.001
+XGBoost default,HHO,wF1,"0.0044 [0.0026, 0.0064]",96/140,0.5,< 0.001
+XGBoost default,HHO,Minority F1,"0.0278 [0.0131, 0.0398]",106/140,0.67,< 0.001
+XGBoost default,HHO (mirrored),wF1,"0.0010 [-0.0008, 0.0028]",76/140,0.18,0.267
+XGBoost default,HHO (mirrored),Minority F1,"0.0154 [0.0093, 0.0229]",99/140,0.57,< 0.001
+XGBoost default,SMA,wF1,"0.0066 [0.0049, 0.0087]",116/140,0.8,< 0.001
+XGBoost default,SMA,Minority F1,"0.0159 [0.0095, 0.0215]",112/140,0.7,< 0.001
+XGBoost default,SMA (mirrored),wF1,"-0.0075 [-0.0114, -0.0044]",44/140,-0.54,< 0.001
+XGBoost default,SMA (mirrored),Minority F1,"0.0094 [0.0002, 0.0176]",82/140,0.16,0.097
+XGBoost default,SMAc,wF1,"-0.0065 [-0.0097, -0.0028]",44/140,-0.5,< 0.001
+XGBoost default,SMAc,Minority F1,"0.0108 [0.0057, 0.0185]",90/140,0.33,0.001
+Random Search,TPE,wF1,"0.0043 [0.0034, 0.0065]",107/140,0.66,< 0.001
+Random Search,TPE,Minority F1,"0.0039 [0.0002, 0.0072]",81/140,0.21,0.069
+Random Search,TPE_flip,wF1,"0.0038 [0.0020, 0.0054]",94/140,0.52,< 0.001
+Random Search,TPE_flip,Minority F1,"0.0020 [-0.0024, 0.0054]",73/140,0.18,0.069
+XGBoost default,TPE,wF1,"0.0044 [0.0027, 0.0056]",99/140,0.55,< 0.001
+XGBoost default,TPE,Minority F1,"0.0190 [0.0113, 0.0248]",107/140,0.67,< 0.001
+XGBoost default,TPE_flip,wF1,"0.0028 [0.0015, 0.0037]",92/140,0.41,< 0.001
+XGBoost default,TPE_flip,Minority F1,"0.0133 [0.0104, 0.0202]",108/140,0.68,< 0.001

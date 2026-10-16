@@ -1,0 +1,4 @@
+Fitness,σnoise: log n positif,σnoise: log n negatif,σnoise: cv5x3,σsinyal: log n positif,σsinyal: log n negatif,σsinyal: cv5x3,SNR: log n positif,SNR: log n negatif,SNR: cv5x3,rasio σnoise cv5x3/cv5x1 (median),"SNR cv5x1 (median, rentang kondisi)"
+Weighted F1,+0.15*,-0.73*,-0.56*,+0.85*,+0.14,+0.17,+1.17*,+1.72*,+1.35*,0.565,1.24 [0.11–6.79]
+F1 minoritas,-0.53*,-0.03,-0.56*,+0.38,-0.95*,+0.45*,+1.55*,-1.26*,+1.54*,0.562,0.50 [0.11–10.62]
+MCC,-0.39*,-0.04,-0.56*,+0.52*,-0.62*,+0.54*,+1.51*,-0.48,+1.61*,0.566,0.51 [0.06–8.34]

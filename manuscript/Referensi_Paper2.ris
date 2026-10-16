@@ -1,0 +1,763 @@
+TY  - JOUR
+AU  - Bray, Freddie
+AU  - Laversanne, Mathieu
+AU  - Sung, Hyuna
+AU  - Ferlay, Jacques
+AU  - Siegel, Rebecca L.
+AU  - Soerjomataram, Isabelle
+AU  - Jemal, Ahmedin
+TI  - Global Cancer Statistics 2022: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries
+JO  - CA: A Cancer Journal for Clinicians
+VL  - 74
+IS  - 3
+SP  - 229
+EP  - 263
+PY  - 2024
+DO  - 10.3322/caac.21834
+ID  - bray2024
+ER  - 
+
+TY  - CPAPER
+AU  - Chen, Tianqi
+AU  - Guestrin, Carlos
+TI  - XGBoost: A Scalable Tree Boosting System
+T2  - Proc. of the 22nd ACM SIGKDD International Conf. on Knowledge Discovery and Data Mining
+SP  - 785
+EP  - 794
+PY  - 2016
+DO  - 10.1145/2939672.2939785
+ID  - chen2016
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Li
+AU  - Shami, Abdallah
+TI  - On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice
+JO  - Neurocomputing
+VL  - 415
+SP  - 295
+EP  - 316
+PY  - 2020
+DO  - 10.1016/j.neucom.2020.07.061
+ID  - yang2020
+ER  - 
+
+TY  - JOUR
+AU  - Bischl, Bernd
+AU  - Binder, Martin
+AU  - Lang, Michel
+AU  - Pielok, Tobias
+AU  - Richter, Jakob
+AU  - Coors, Stefan
+AU  - Thomas, Janek
+AU  - Ullmann, Theresa
+AU  - Becker, Marc
+AU  - Boulesteix, Anne-Laure
+AU  - Deng, Difan
+AU  - Lindauer, Marius
+TI  - Hyperparameter Optimization: Foundations, Algorithms, Best Practices, and Open Challenges
+JO  - WIREs Data Mining and Knowledge Discovery
+VL  - 13
+IS  - 2
+SP  - e1484
+PY  - 2023
+DO  - 10.1002/widm.1484
+ID  - bischl2023
+ER  - 
+
+TY  - CHAP
+AU  - Feurer, Matthias
+AU  - Hutter, Frank
+ED  - Hutter, Frank
+ED  - Kotthoff, Lars
+ED  - Vanschoren, Joaquin
+TI  - Hyperparameter Optimization
+T2  - Automated Machine Learning: Methods, Systems, Challenges
+SP  - 3
+EP  - 33
+PB  - Springer
+PY  - 2019
+DO  - 10.1007/978-3-030-05318-5_1
+ID  - feurer2019
+ER  - 
+
+TY  - JOUR
+AU  - Probst, Philipp
+AU  - Boulesteix, Anne-Laure
+AU  - Bischl, Bernd
+TI  - Tunability: Importance of Hyperparameters of Machine Learning Algorithms
+JO  - Journal of Machine Learning Research
+VL  - 20
+IS  - 53
+SP  - 1
+EP  - 32
+PY  - 2019
+ID  - probst2019
+ER  - 
+
+TY  - JOUR
+AU  - Bergstra, James
+AU  - Bengio, Yoshua
+TI  - Random Search for Hyper-Parameter Optimization
+JO  - Journal of Machine Learning Research
+VL  - 13
+SP  - 281
+EP  - 305
+PY  - 2012
+ID  - bergstra2012
+ER  - 
+
+TY  - JOUR
+AU  - Passino, Kevin M.
+TI  - Biomimicry of Bacterial Foraging for Distributed Optimization and Control
+JO  - IEEE Control Systems Magazine
+VL  - 22
+IS  - 3
+SP  - 52
+EP  - 67
+PY  - 2002
+DO  - 10.1109/MCS.2002.1004010
+ID  - passino2002
+ER  - 
+
+TY  - JOUR
+AU  - Heidari, Ali Asghar
+AU  - Mirjalili, Seyedali
+AU  - Faris, Hossam
+AU  - Aljarah, Ibrahim
+AU  - Mafarja, Majdi
+AU  - Chen, Huiling
+TI  - Harris Hawks Optimization: Algorithm and Applications
+JO  - Future Generation Computer Systems
+VL  - 97
+SP  - 849
+EP  - 872
+PY  - 2019
+DO  - 10.1016/j.future.2019.02.028
+ID  - heidari2019
+ER  - 
+
+TY  - JOUR
+AU  - Li, Shimin
+AU  - Chen, Huiling
+AU  - Wang, Mingjing
+AU  - Heidari, Ali Asghar
+AU  - Mirjalili, Seyedali
+TI  - Slime Mould Algorithm: A New Method for Stochastic Optimization
+JO  - Future Generation Computer Systems
+VL  - 111
+SP  - 300
+EP  - 323
+PY  - 2020
+DO  - 10.1016/j.future.2020.03.055
+ID  - li2020
+ER  - 
+
+TY  - JOUR
+AU  - Nalasari, L. T.
+AU  - Anam, S.
+AU  - Shofianah, N.
+TI  - Liver Cirrhosis Classification Using Extreme Gradient Boosting Classifier and Harris Hawk Optimization as Hyperparameter Tuning
+JO  - Journal of Electronics, Electromedical Engineering, and Medical Informatics
+VL  - 7
+IS  - 2
+SP  - 508
+EP  - 519
+PY  - 2025
+DO  - 10.35882/jeeemi.v7i2.730
+ID  - nalasari2025
+ER  - 
+
+TY  - JOUR
+AU  - Naim, S. M.
+AU  - Tiang, J.-J.
+AU  - Nahid, A.-A.
+TI  - Glioma Classification Using Harris Hawks-Driven Optimized Gradient Boosting Classifier along with SHAP-Based Interpretability
+JO  - International Journal of Advanced Computer Science and Applications
+VL  - 16
+IS  - 10
+SP  - 929
+EP  - 939
+PY  - 2025
+ID  - naim2025
+ER  - 
+
+TY  - JOUR
+AU  - Nematzadeh, S.
+AU  - Kiani, F.
+AU  - Torkamanian-Afshar, M.
+AU  - Aydin, N.
+TI  - Tuning Hyperparameters of Machine Learning Algorithms and Deep Neural Networks Using Metaheuristics: A Bioinformatics Study on Biomedical and Biological Cases
+JO  - Computational Biology and Chemistry
+VL  - 97
+SP  - 107619
+PY  - 2022
+DO  - 10.1016/j.compbiolchem.2021.107619
+ID  - nematzadeh2022
+ER  - 
+
+TY  - JOUR
+AU  - Wei, Y.
+AU  - Othman, Z.
+AU  - Daud, K. M.
+AU  - Luo, Q.
+AU  - Zhou, Y.
+TI  - Advances in Slime Mould Algorithm: A Comprehensive Survey
+JO  - Biomimetics
+VL  - 9
+IS  - 1
+SP  - 31
+PY  - 2024
+DO  - 10.3390/biomimetics9010031
+ID  - wei2024
+ER  - 
+
+TY  - JOUR
+AU  - Zivkovic, M.
+AU  - Tair, M.
+AU  - Venkatachalam, K.
+AU  - Bacanin, N.
+AU  - Hubálovský, Š.
+AU  - Trojovský, P.
+TI  - Novel Hybrid Firefly Algorithm: An Application to Enhance XGBoost Tuning for Intrusion Detection Classification
+JO  - PeerJ Computer Science
+VL  - 8
+SP  - e956
+PY  - 2022
+DO  - 10.7717/peerj-cs.956
+ID  - zivkovic2022
+ER  - 
+
+TY  - JOUR
+AU  - Cawley, Gavin C.
+AU  - Talbot, Nicola L. C.
+TI  - On Over-Fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation
+JO  - Journal of Machine Learning Research
+VL  - 11
+SP  - 2079
+EP  - 2107
+PY  - 2010
+ID  - cawley2010
+ER  - 
+
+TY  - JOUR
+AU  - Varma, Sudhir
+AU  - Simon, Richard
+TI  - Bias in Error Estimation When Using Cross-Validation for Model Selection
+JO  - BMC Bioinformatics
+VL  - 7
+SP  - 91
+PY  - 2006
+DO  - 10.1186/1471-2105-7-91
+ID  - varma2006
+ER  - 
+
+TY  - JOUR
+AU  - Beyer, Hans-Georg
+TI  - Evolutionary Algorithms in Noisy Environments: Theoretical Issues and Guidelines for Practice
+JO  - Computer Methods in Applied Mechanics and Engineering
+VL  - 186
+IS  - 2-4
+SP  - 239
+EP  - 267
+PY  - 2000
+DO  - 10.1016/S0045-7825(99)00386-2
+ID  - beyer2000
+ER  - 
+
+TY  - JOUR
+AU  - Jin, Yaochu
+AU  - Branke, Jürgen
+TI  - Evolutionary Optimization in Uncertain Environments—A Survey
+JO  - IEEE Transactions on Evolutionary Computation
+VL  - 9
+IS  - 3
+SP  - 303
+EP  - 317
+PY  - 2005
+DO  - 10.1109/TEVC.2005.846356
+ID  - jin2005
+ER  - 
+
+TY  - JOUR
+AU  - Rakshit, Pratyusha
+AU  - Konar, Amit
+AU  - Das, Swagatam
+TI  - Noisy Evolutionary Optimization Algorithms – A Comprehensive Survey
+JO  - Swarm and Evolutionary Computation
+VL  - 33
+SP  - 18
+EP  - 45
+PY  - 2017
+DO  - 10.1016/j.swevo.2016.09.002
+ID  - rakshit2017
+ER  - 
+
+TY  - JOUR
+AU  - Sörensen, Kenneth
+TI  - Metaheuristics—the Metaphor Exposed
+JO  - International Transactions in Operational Research
+VL  - 22
+IS  - 1
+SP  - 3
+EP  - 18
+PY  - 2015
+DO  - 10.1111/itor.12001
+ID  - sorensen2015
+ER  - 
+
+TY  - JOUR
+AU  - Kudela, Jakub
+TI  - A Critical Problem in Benchmarking and Analysis of Evolutionary Computation Methods
+JO  - Nature Machine Intelligence
+VL  - 4
+IS  - 12
+SP  - 1238
+EP  - 1245
+PY  - 2022
+DO  - 10.1038/s42256-022-00579-0
+ID  - kudela2022
+ER  - 
+
+TY  - JOUR
+AU  - Wolpert, David H.
+AU  - Macready, William G.
+TI  - No Free Lunch Theorems for Optimization
+JO  - IEEE Transactions on Evolutionary Computation
+VL  - 1
+IS  - 1
+SP  - 67
+EP  - 82
+PY  - 1997
+DO  - 10.1109/4235.585893
+ID  - wolpert1997
+ER  - 
+
+TY  - JOUR
+AU  - Malan, Katherine M.
+AU  - Engelbrecht, Andries P.
+TI  - A Survey of Techniques for Characterising Fitness Landscapes and Some Possible Ways Forward
+JO  - Information Sciences
+VL  - 241
+SP  - 148
+EP  - 163
+PY  - 2013
+DO  - 10.1016/j.ins.2013.04.015
+ID  - malan2013
+ER  - 
+
+TY  - CPAPER
+AU  - Mersmann, Olaf
+AU  - Bischl, Bernd
+AU  - Trautmann, Heike
+AU  - Preuss, Mike
+AU  - Weihs, Claus
+AU  - Rudolph, Günter
+TI  - Exploratory Landscape Analysis
+T2  - Proc. of the 13th Annual Conf. on Genetic and Evolutionary Computation (GECCO)
+SP  - 829
+EP  - 836
+PY  - 2011
+DO  - 10.1145/2001576.2001690
+ID  - mersmann2011
+ER  - 
+
+TY  - CPAPER
+AU  - Jones, Terry
+AU  - Forrest, Stephanie
+TI  - Fitness Distance Correlation as a Measure of Problem Difficulty for Genetic Algorithms
+T2  - Proc. of the 6th International Conf. on Genetic Algorithms
+SP  - 184
+EP  - 192
+PY  - 1995
+ID  - jones1995
+ER  - 
+
+TY  - CPAPER
+AU  - Lunacek, Monte
+AU  - Whitley, Darrell
+TI  - The Dispersion Metric and the CMA Evolution Strategy
+T2  - Proc. of the 8th Annual Conf. on Genetic and Evolutionary Computation (GECCO)
+SP  - 477
+EP  - 484
+PY  - 2006
+DO  - 10.1145/1143997.1144085
+ID  - lunacek2006
+ER  - 
+
+TY  - JOUR
+AU  - Weinberger, Edward
+TI  - Correlated and Uncorrelated Fitness Landscapes and How to Tell the Difference
+JO  - Biological Cybernetics
+VL  - 63
+IS  - 5
+SP  - 325
+EP  - 336
+PY  - 1990
+DO  - 10.1007/BF00202749
+ID  - weinberger1990
+ER  - 
+
+TY  - CPAPER
+AU  - Pimenta, Cristiano G.
+AU  - de Sá, Alex G. C.
+AU  - Ochoa, Gabriela
+AU  - Pappa, Gisele L.
+TI  - Fitness Landscape Analysis of Automated Machine Learning Search Spaces
+T2  - Evolutionary Computation in Combinatorial Optimization (EvoCOP 2020), Lecture Notes in Computer Science, Vol. 12102
+SP  - 114
+EP  - 130
+PY  - 2020
+DO  - 10.1007/978-3-030-43680-3_8
+ID  - pimenta2020
+ER  - 
+
+TY  - CPAPER
+AU  - Pushak, Yasha
+AU  - Hoos, Holger
+TI  - Algorithm Configuration Landscapes: More Benign Than Expected?
+T2  - Parallel Problem Solving from Nature – PPSN XV, Lecture Notes in Computer Science, Vol. 11102
+SP  - 271
+EP  - 283
+PY  - 2018
+DO  - 10.1007/978-3-319-99259-4_22
+ID  - pushak2018
+ER  - 
+
+TY  - CPAPER
+AU  - Schneider, Lennart
+AU  - Schäpermeier, Lennart
+AU  - Prager, Raphael Patrick
+AU  - Bischl, Bernd
+AU  - Trautmann, Heike
+AU  - Kerschke, Pascal
+TI  - HPO × ELA: Investigating Hyperparameter Optimization Landscapes by Means of Exploratory Landscape Analysis
+T2  - Parallel Problem Solving from Nature – PPSN XVII, Lecture Notes in Computer Science, Vol. 13398
+SP  - 575
+EP  - 589
+PY  - 2022
+DO  - 10.1007/978-3-031-14714-2_40
+ID  - schneider2022
+ER  - 
+
+TY  - CPAPER
+AU  - van Rijn, Jan N.
+AU  - Hutter, Frank
+TI  - Hyperparameter Importance Across Datasets
+T2  - Proc. of the 24th ACM SIGKDD International Conf. on Knowledge Discovery and Data Mining
+SP  - 2367
+EP  - 2376
+PY  - 2018
+DO  - 10.1145/3219819.3220058
+ID  - vanrijn2018
+ER  - 
+
+TY  - CPAPER
+AU  - Hutter, Frank
+AU  - Hoos, Holger
+AU  - Leyton-Brown, Kevin
+TI  - An Efficient Approach for Assessing Hyperparameter Importance
+T2  - Proc. of the 31st International Conf. on Machine Learning, PMLR Vol. 32, No. 1
+SP  - 754
+EP  - 762
+PY  - 2014
+ID  - hutter2014
+ER  - 
+
+TY  - DATA
+AU  - Bhat, Mysar Ahmad
+TI  - Lung Cancer
+T2  - Kaggle
+PY  - 2021
+UR  - https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer
+ID  - lung_kaggle
+ER  - 
+
+TY  - DATA
+AU  - Borzooei, Shiva
+AU  - Tarokhian, Aidin
+TI  - Differentiated Thyroid Cancer Recurrence
+T2  - UCI Machine Learning Repository
+PY  - 2023
+DO  - 10.24432/C5632J
+ID  - borzooei_uci
+ER  - 
+
+TY  - JOUR
+AU  - Borzooei, Shiva
+AU  - Briganti, Giovanni
+AU  - Golparian, Mitra
+AU  - Lechien, Jerome R.
+AU  - Tarokhian, Aidin
+TI  - Machine Learning for Risk Stratification of Thyroid Cancer Patients: A 15-Year Cohort Study
+JO  - European Archives of Oto-Rhino-Laryngology
+VL  - 281
+IS  - 4
+SP  - 2095
+EP  - 2104
+PY  - 2024
+DO  - 10.1007/s00405-023-08299-w
+ID  - borzooei2024
+ER  - 
+
+TY  - DATA
+AU  - Wolberg, William
+AU  - Mangasarian, Olvi
+AU  - Street, Nick
+AU  - Street, W.
+TI  - Breast Cancer Wisconsin (Diagnostic)
+T2  - UCI Machine Learning Repository
+PY  - 1993
+DO  - 10.24432/C5DW2B
+ID  - wolberg_uci
+ER  - 
+
+TY  - CPAPER
+AU  - Street, W. Nick
+AU  - Wolberg, William H.
+AU  - Mangasarian, Olvi L.
+TI  - Nuclear Feature Extraction for Breast Tumor Diagnosis
+T2  - Biomedical Image Processing and Biomedical Visualization, Proc. SPIE Vol. 1905
+SP  - 861
+EP  - 870
+PY  - 1993
+DO  - 10.1117/12.148698
+ID  - street1993
+ER  - 
+
+TY  - DATA
+AU  - Fernandes, Kelwin
+AU  - Cardoso, Jaime
+AU  - Fernandes, Jessica
+TI  - Cervical Cancer (Risk Factors)
+T2  - UCI Machine Learning Repository
+PY  - 2017
+DO  - 10.24432/C5Z310
+ID  - fernandes_uci
+ER  - 
+
+TY  - CPAPER
+AU  - Fernandes, Kelwin
+AU  - Cardoso, Jaime S.
+AU  - Fernandes, Jessica
+TI  - Transfer Learning with Partial Observability Applied to Cervical Cancer Screening
+T2  - Pattern Recognition and Image Analysis (IbPRIA 2017), Lecture Notes in Computer Science, Vol. 10255
+SP  - 243
+EP  - 250
+PY  - 2017
+DO  - 10.1007/978-3-319-58838-4_27
+ID  - fernandes2017
+ER  - 
+
+TY  - JOUR
+AU  - Chawla, Nitesh V.
+AU  - Bowyer, Kevin W.
+AU  - Hall, Lawrence O.
+AU  - Kegelmeyer, W. Philip
+TI  - SMOTE: Synthetic Minority Over-Sampling Technique
+JO  - Journal of Artificial Intelligence Research
+VL  - 16
+SP  - 321
+EP  - 357
+PY  - 2002
+DO  - 10.1613/jair.953
+ID  - chawla2002
+ER  - 
+
+TY  - JOUR
+AU  - He, Haibo
+AU  - Garcia, Edwardo A.
+TI  - Learning from Imbalanced Data
+JO  - IEEE Transactions on Knowledge and Data Engineering
+VL  - 21
+IS  - 9
+SP  - 1263
+EP  - 1284
+PY  - 2009
+DO  - 10.1109/TKDE.2008.239
+ID  - he2009
+ER  - 
+
+TY  - JOUR
+AU  - Chicco, Davide
+AU  - Jurman, Giuseppe
+TI  - The Advantages of the Matthews Correlation Coefficient (MCC) over F1 Score and Accuracy in Binary Classification Evaluation
+JO  - BMC Genomics
+VL  - 21
+SP  - 6
+PY  - 2020
+DO  - 10.1186/s12864-019-6413-7
+ID  - chicco2020
+ER  - 
+
+TY  - JOUR
+AU  - Koo, Terry K.
+AU  - Li, Mae Y.
+TI  - A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research
+JO  - Journal of Chiropractic Medicine
+VL  - 15
+IS  - 2
+SP  - 155
+EP  - 163
+PY  - 2016
+DO  - 10.1016/j.jcm.2016.02.012
+ID  - koo2016
+ER  - 
+
+TY  - JOUR
+AU  - Breiman, Leo
+TI  - Random Forests
+JO  - Machine Learning
+VL  - 45
+IS  - 1
+SP  - 5
+EP  - 32
+PY  - 2001
+DO  - 10.1023/A:1010933404324
+ID  - breiman2001
+ER  - 
+
+TY  - JOUR
+AU  - Hussain, Kashif
+AU  - Salleh, Mohd Najib Mohd
+AU  - Cheng, Shi
+AU  - Shi, Yuhui
+TI  - On the Exploration and Exploitation in Popular Swarm-Based Metaheuristic Algorithms
+JO  - Neural Computing and Applications
+VL  - 31
+IS  - 11
+SP  - 7665
+EP  - 7683
+PY  - 2019
+DO  - 10.1007/s00521-018-3592-0
+ID  - hussain2019
+ER  - 
+
+TY  - JOUR
+AU  - Van Thieu, Nguyen
+AU  - Mirjalili, Seyedali
+TI  - MEALPY: An Open-Source Library for Latest Meta-Heuristic Algorithms in Python
+JO  - Journal of Systems Architecture
+VL  - 139
+SP  - 102871
+PY  - 2023
+DO  - 10.1016/j.sysarc.2023.102871
+ID  - vanthieu2023
+ER  - 
+
+TY  - CPAPER
+AU  - Bergstra, James
+AU  - Bardenet, Rémi
+AU  - Bengio, Yoshua
+AU  - Kégl, Balázs
+TI  - Algorithms for Hyper-Parameter Optimization
+T2  - Advances in Neural Information Processing Systems, Vol. 24
+SP  - 2546
+EP  - 2554
+PY  - 2011
+ID  - bergstra2011
+ER  - 
+
+TY  - CPAPER
+AU  - Akiba, Takuya
+AU  - Sano, Shotaro
+AU  - Yanase, Toshihiko
+AU  - Ohta, Takeru
+AU  - Koyama, Masanori
+TI  - Optuna: A Next-Generation Hyperparameter Optimization Framework
+T2  - Proc. of the 25th ACM SIGKDD International Conf. on Knowledge Discovery & Data Mining
+SP  - 2623
+EP  - 2631
+PY  - 2019
+DO  - 10.1145/3292500.3330701
+ID  - akiba2019
+ER  - 
+
+TY  - JOUR
+AU  - Demšar, Janez
+TI  - Statistical Comparisons of Classifiers over Multiple Data Sets
+JO  - Journal of Machine Learning Research
+VL  - 7
+SP  - 1
+EP  - 30
+PY  - 2006
+ID  - demsar2006
+ER  - 
+
+TY  - JOUR
+AU  - Derrac, Joaquín
+AU  - García, Salvador
+AU  - Molina, Daniel
+AU  - Herrera, Francisco
+TI  - A Practical Tutorial on the Use of Nonparametric Statistical Tests as a Methodology for Comparing Evolutionary and Swarm Intelligence Algorithms
+JO  - Swarm and Evolutionary Computation
+VL  - 1
+IS  - 1
+SP  - 3
+EP  - 18
+PY  - 2011
+DO  - 10.1016/j.swevo.2011.02.002
+ID  - derrac2011
+ER  - 
+
+TY  - JOUR
+AU  - Kerby, Dave S.
+TI  - The Simple Difference Formula: An Approach to Teaching Nonparametric Correlation
+JO  - Comprehensive Psychology
+VL  - 3
+SP  - 11.IT.3.1
+PY  - 2014
+DO  - 10.2466/11.IT.3.1
+ID  - kerby2014
+ER  - 
+
+TY  - BOOK
+AU  - Efron, Bradley
+AU  - Tibshirani, Robert J.
+TI  - An Introduction to the Bootstrap
+PB  - Chapman & Hall
+PY  - 1993
+DO  - 10.1007/978-1-4899-4541-9
+ID  - efron1993
+ER  - 
+
+TY  - JOUR
+AU  - Holm, Sture
+TI  - A Simple Sequentially Rejective Multiple Test Procedure
+JO  - Scandinavian Journal of Statistics
+VL  - 6
+IS  - 2
+SP  - 65
+EP  - 70
+PY  - 1979
+ID  - holm1979
+ER  - 
+
+TY  - CPAPER
+AU  - Seabold, Skipper
+AU  - Perktold, Josef
+TI  - Statsmodels: Econometric and Statistical Modeling with Python
+T2  - Proc. of the 9th Python in Science Conf.
+SP  - 92
+EP  - 96
+PY  - 2010
+DO  - 10.25080/Majora-92bf1922-011
+ID  - seabold2010
+ER  - 
+
+TY  - JOUR
+AU  - Kerschke, Pascal
+AU  - Hoos, Holger H.
+AU  - Neumann, Frank
+AU  - Trautmann, Heike
+TI  - Automated Algorithm Selection: Survey and Perspectives
+JO  - Evolutionary Computation
+VL  - 27
+IS  - 1
+SP  - 3
+EP  - 45
+PY  - 2019
+DO  - 10.1162/evco_a_00242
+ID  - kerschke2019
+ER  - 
+

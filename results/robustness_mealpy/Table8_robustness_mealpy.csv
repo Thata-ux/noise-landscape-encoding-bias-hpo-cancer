@@ -1,0 +1,9 @@
+comparison,n,median_difference,positive_differences,p_wilcoxon
+mealpy SMA: original − mirrored,12,0.0138,12/12,0.0005
+own SMA (v5.2): original − mirrored (same units),12,0.0239,12/12,0.0005
+mealpy HHO: original − mirrored,12,0.0075,8/12,0.3013
+own HHO (v5.2): original − mirrored (same units),12,0.002,8/12,0.2334
+mealpy SMA − RS,12,0.0132,11/12,0.0015
+mealpy SMA (mirrored) − RS,12,-0.0096,3/12,0.021
+"mealpy SMA (domain [−1,1]) − RS",12,-0.0166,0/12,0.0005
+mealpy SMA − own SMA (v5.2),12,-0.0016,4/12,0.0674

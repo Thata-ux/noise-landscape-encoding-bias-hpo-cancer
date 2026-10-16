@@ -1,0 +1,6 @@
+metric,Spearman ρ (log SNR),p Holm
+Surrogate R² (learnability),0.59,< 0.001
+ρ₁ random walk,0.44,< 0.001
+FDC,0.37,< 0.001
+Neutrality ratio,-0.53,< 0.001
+wF1 range,0.34,< 0.001

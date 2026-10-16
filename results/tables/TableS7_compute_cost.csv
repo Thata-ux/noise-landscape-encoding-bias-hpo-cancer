@@ -1,0 +1,9 @@
+dataset,scheme,min/unit (mean),SD,units
+Breast,cv5x1,40.9,3.8,40
+Breast,cv5x3,80.7,9.1,40
+Cervical,cv5x1,24.4,5.2,50
+Cervical,cv5x3,47.8,8.8,50
+Lung,cv5x1,17.9,1.0,20
+Lung,cv5x3,34.4,2.2,20
+Thyroid,cv5x1,23.0,1.5,30
+Thyroid,cv5x3,44.8,4.0,30

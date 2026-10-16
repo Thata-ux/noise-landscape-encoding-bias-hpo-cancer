@@ -1,0 +1,133 @@
+{
+ "code_version": "v5.2",
+ "run_mode": "full",
+ "variant": "thyRespDrop_cervTestsDrop",
+ "drop_thyroid_response": true,
+ "drop_cervical_other_tests": true,
+ "settings": {
+  "datasets": [
+   "Cervical",
+   "Breast",
+   "Lung",
+   "Thyroid"
+  ],
+  "ir_targets": [
+   null,
+   3,
+   6,
+   12,
+   20
+  ],
+  "exclude_levels": [
+   [
+    "Lung",
+    6
+   ]
+  ],
+  "cv_schemes": {
+   "cv5x1": [
+    5,
+    1
+   ],
+   "cv5x3": [
+    5,
+    3
+   ]
+  },
+  "n_runs": 10,
+  "noise_configs": 30,
+  "noise_repeats": 10,
+  "fla_samples": 200,
+  "walk_length": 100,
+  "opt_budget": 300,
+  "pop_size": 20,
+  "reeval_repeats": 5,
+  "optimizers": [
+   "RS",
+   "BFO",
+   "HHO",
+   "SMA",
+   "SMAc"
+  ],
+  "flip_optimizers": [
+   "BFO",
+   "HHO",
+   "SMA"
+  ],
+  "flip_schemes": [
+   "cv5x1"
+  ]
+ },
+ "param_space": [
+  [
+   "learning_rate",
+   0.01,
+   0.3,
+   "float"
+  ],
+  [
+   "max_depth",
+   3,
+   10,
+   "int"
+  ],
+  [
+   "min_child_weight",
+   1,
+   10,
+   "int"
+  ],
+  [
+   "gamma",
+   0.0,
+   5.0,
+   "float"
+  ],
+  [
+   "subsample",
+   0.5,
+   1.0,
+   "float"
+  ],
+  [
+   "colsample_bytree",
+   0.5,
+   1.0,
+   "float"
+  ],
+  [
+   "reg_alpha",
+   0.0,
+   10.0,
+   "float"
+  ],
+  [
+   "reg_lambda",
+   0.0,
+   10.0,
+   "float"
+  ],
+  [
+   "n_estimators",
+   50,
+   500,
+   "int"
+  ]
+ ],
+ "test_size": 0.15,
+ "min_minority": 25,
+ "walk_step_sd": 0.05,
+ "top_fraction": 0.1,
+ "seed_base": 42,
+ "scale_pos_weight_if_ir_gt": 3.0,
+ "high_missing_threshold": 0.4,
+ "libs": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "xgboost": "3.4.1"
+ },
+ "design_fingerprint": "f70d33291353"
+}

@@ -1,0 +1,4 @@
+Pasangan,Spearman ρ SNR (28 kondisi×skema)
+Weighted F1 vs F1 minoritas,0.4
+Weighted F1 vs MCC,0.44
+F1 minoritas vs MCC,0.96

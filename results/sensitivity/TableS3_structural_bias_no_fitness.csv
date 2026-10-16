@@ -1,0 +1,15 @@
+fitness,sumber,metode,n,centroid,bawah,atas,pusat
+acak,kode penelitian (v5.2),BFO,200,0.5,0.0,0.0,0.126
+acak,kode penelitian (v5.2),HHO,200,0.134,0.59,0.017,0.006
+acak,kode penelitian (v5.2),SMA,200,0.077,0.464,0.0,0.004
+acak,kode penelitian (v5.2),SMAc,200,0.5,0.0,0.0,0.514
+konstan,kode penelitian (v5.2),BFO,200,0.499,0.0,0.0,0.208
+konstan,kode penelitian (v5.2),HHO,200,0.049,0.716,0.0,0.003
+konstan,kode penelitian (v5.2),SMA,200,0.014,0.707,0.0,0.0
+konstan,kode penelitian (v5.2),SMAc,200,0.5,0.0,0.0,0.896
+acak,mealpy 3.0.1,SMA,200,0.078,0.433,0.0,0.006
+acak,mealpy 3.0.1,"SMA [−1,1]",200,0.5,0.0,0.0,0.522
+acak,mealpy 3.0.1,HHO,200,0.343,0.003,0.0,0.044
+konstan,mealpy 3.0.1,SMA,200,0.015,0.678,0.0,0.0
+konstan,mealpy 3.0.1,"SMA [−1,1]",200,0.5,0.0,0.0,0.882
+konstan,mealpy 3.0.1,HHO,200,0.5,0.0,0.0,0.256

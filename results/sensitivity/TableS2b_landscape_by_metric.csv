@@ -1,0 +1,13 @@
+Fitness,Metrik,Median Δ (cv5x3 − cv5x1),Δ > 0,r,p Wilcoxon,Spearman ρ (log SNR)
+Weighted F1,ρ₁ random walk,0.098,124/140,0.82,< 0.001,0.44
+Weighted F1,R² surrogate,0.08,126/140,0.93,< 0.001,0.59
+Weighted F1,FDC,0.028,101/140,0.49,< 0.001,0.37
+Weighted F1,Rasio neutralitas,-0.051,37/140,-0.58,< 0.001,-0.53
+F1 minoritas,ρ₁ random walk,0.081,111/140,0.71,< 0.001,0.45
+F1 minoritas,R² surrogate,0.108,120/140,0.89,< 0.001,0.58
+F1 minoritas,FDC,0.043,100/140,0.52,< 0.001,0.4
+F1 minoritas,Rasio neutralitas,-0.04,43/140,-0.48,< 0.001,-0.22
+MCC,ρ₁ random walk,0.092,112/140,0.73,< 0.001,0.47
+MCC,R² surrogate,0.118,123/140,0.9,< 0.001,0.63
+MCC,FDC,0.051,98/140,0.46,< 0.001,0.44
+MCC,Rasio neutralitas,-0.02,47/140,-0.43,< 0.001,-0.25

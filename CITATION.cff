@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Evaluation Noise, Fitness Landscape, and Encoding Bias in Metaheuristic Hyperparameter Optimization of XGBoost on Small Imbalanced Cancer Data"
+authors:
+  - family-names: Andika
+    given-names: Tahta Herdian
+    affiliation: "Doctoral Program of Information System, Postgraduate School, Universitas Diponegoro"
+    email: tahtaherdianandika@students.undip.ac.id
+  - family-names: Widowati
+    affiliation: "Department of Mathematics, Universitas Diponegoro"
+  - family-names: Widodo
+    given-names: Catur Edi
+    affiliation: "Department of Physics, Universitas Diponegoro"
+license: MIT
+repository-code: "https://github.com/Thata-ux/noise-landscape-encoding-bias-hpo-cancer"
+keywords: [fitness landscape analysis, hyperparameter optimization, evaluation noise, imbalanced data, metaheuristics, XGBoost]
