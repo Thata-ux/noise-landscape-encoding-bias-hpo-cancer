@@ -59,6 +59,15 @@ for col, lab in [('rho1', 'ρ₁'), ('rf_oob_r2', 'R² surrogate'), ('fdc', 'FDC
 for o in ['RS', 'HHO']:
     pv = O[O.optimizer == o].pivot_table(index=['dataset', 'cond', 'run'], columns='scheme', values='winners_curse').reset_index()
     pv['d'] = pv.cv5x1 - pv.cv5x3; rows.append(summarize(pv, 'd', f"Winner's curse {o}: cv5x1 − cv5x3"))
+# ---- TPE (baseline Bayesian Optimization; ditambahkan di akhir agar baris sebelumnya tidak berubah) ----
+TPE_LONG = os.path.join(REPO, 'results', 'baseline_tpe', 'tpe_long.csv')
+if os.path.exists(TPE_LONG):
+    TL = pd.read_csv(TPE_LONG)
+    PT = TL.pivot_table(index=['unit', 'dataset', 'cond'], columns='metode', values='reeval_cv_wf1').reset_index()
+    PT['cond'] = [u.split('_cv5x1')[0] for u in PT.unit]          # kondisi = dataset + level IR
+    for a_, b_, lab in [('TPE', 'TPE_flip', 'Flip test TPE: asli − dicerminkan (wF1)'), ('TPE', 'RS', 'TPE − RS (wF1)'),
+                        ('TPE', 'default', 'TPE − XGBoost default (wF1)'), ('TPE', 'SMA', 'TPE − SMA (wF1)')]:
+        PT['d'] = PT[a_] - PT[b_]; rows.append(summarize(PT, 'd', lab))
 T = pd.DataFrame(rows)
 for c in ['p Wilcoxon (unit)', 'p Wilcoxon (kondisi)']:
     T[c] = T[c].map(lambda p: '< 0.001' if p < 0.001 else f'{p:.3f}')
