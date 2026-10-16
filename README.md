@@ -25,8 +25,9 @@ Random Search (RS) is the reference without directional bias.
    original encoding but loses by −0.0035 when the search space is mirrored (x → 1 − x). The cause is a
    coordinate-dependent structural bias: its population is pulled to the coordinate origin, which in a [0,1] encoding is
    the lower bound of every hyperparameter. The same bias appears with the third-party **mealpy** implementation, on
-   random/constant fitness, and moves to the centre when the domain is [−1, 1]. A Bayesian optimization baseline (**TPE**,
-   Optuna) is practically invariant to mirroring (median Δ 0.0007) and still beats RS (+0.0043).
+   random/constant fitness, and moves to the centre when the domain is [−1, 1]. For a Bayesian optimization baseline (**TPE**,
+   Optuna) the mirroring effect is small and inconclusive (median Δ 0.0007, Wilcoxon p = 0.038, but the 95% CI of the median
+   includes zero), and TPE still beats RS (+0.0043). This is a result for TPE on `cv5x1` only, not for Bayesian optimization in general.
 4. **Winner's curse is as large as the differences between optimizers** and halves with repeated CV.
 
 ## Repository layout
@@ -38,18 +39,18 @@ src/                       Plain Python versions of the notebooks (# %% cells)
   02_analysis.py             All tables and figures of the article from the raw units
   03_robustness_mealpy.py    Robustness check with mealpy 3.0.1 (12 units)
   05_baseline_tpe.py         Bayesian optimization baseline: TPE (Optuna 4.1), original + mirrored space (140 units)
-  04a_sensitivity_dependency.py     Hierarchical bootstrap, condition-level tests, leave-one-dataset-out (Table S1)
-  04b_sensitivity_fitness_metrics.py Noise and landscape recomputed with minority F1 and MCC (Tables S2a–c)
-  04c_structural_bias_no_fitness.py  Optimizers on random / constant fitness (Table S3)
+  04a_sensitivity_dependency.py     Hierarchical bootstrap, condition-level tests, leave-one-dataset-out (Table S3)
+  04b_sensitivity_fitness_metrics.py Noise and landscape recomputed with minority F1 and MCC (Tables S4a–b)
+  04c_structural_bias_no_fitness.py  Optimizers on random / constant fitness (Table S5)
   fig1_framework.py          Conceptual framework figure (Figure 1)
 notebooks/                 The same three scripts as Jupyter/Colab notebooks
 results/
   units/                     Raw results of all 280 units: one .json (summary) + one .npz (all raw evaluations) per unit
   tidy/                      Tidy tables extracted from the units (noise, fla, optimizers, baselines, timing)
-  tables/                    Article tables (CSV), file numbers = article table numbers
-  figures/                   Article figures (PNG 300 dpi + PDF), file numbers = article figure numbers
-  robustness_mealpy/         Robustness-check units, Table 8, and supplementary Figure S1
-  sensitivity/               Sensitivity analyses (supplementary Tables S1–S3 of the manuscript)
+  tables/                    Article tables (CSV); see the mapping below for the article numbers
+  figures/                   Article figures (PNG 300 dpi + PDF); see the mapping below for the article numbers
+  robustness_mealpy/         Robustness-check units, supplementary Table S2 and Figure S2
+  sensitivity/               Sensitivity analyses (supplementary Tables S3–S5 of the manuscript)
   baseline_tpe/              TPE units (140 × original + mirrored), paired tests, summary, and figure
   Paper2_all_tables.xlsx     All analysis tables in one workbook
   key_numbers.json           Key numbers quoted in the text
@@ -74,38 +75,60 @@ duplicates removed; the minority class is always coded 1; preprocessing is fitte
 
 ## Mapping between the article and the files
 
-File names follow the article numbering. All tables and figures are also collected, with captions, in
-`manuscript/Paper2_Figures_Tables_EN.docx`.
+The article has a main text (8 tables, 8 figures) and a separate Supplementary Material (Tables S1–S5, Figures S1–S2).
+File names were fixed before the final numbering, so a file's number can differ from the article number; use this table.
+The file contents are identical to the article tables and figures.
 
-| Article | File(s) |
-|---|---|
-| Table 1 (positioning vs. literature) | `manuscript/Paper2_Figures_Tables_EN.docx` |
-| Table 2 (design of 14 conditions) | `results/tables/Table2_condition_design.csv` |
-| Table 3 (search space) | `PARAM_SPACE` in `src/01_experiment_v5_2.py` |
-| Table 4 (noise, signal, SNR per condition) | `results/tables/Table4_noise_per_condition*.csv` |
-| Table 5 (log–log models) | `results/tables/Table5_noise_signal_snr_models.csv` |
-| Table 6 (noise effect on landscape) | `results/tables/Table6a_*.csv`, `Table6b_*.csv` |
-| Table 7 (flip test) | `results/tables/Table7_flip_test.csv`; bound fractions from `results/tidy/optimizers.csv` |
-| Table 8 (mealpy robustness check) | `results/robustness_mealpy/Table8_robustness_mealpy.csv` |
-| Table 9 (winner's curse) | `results/tables/Table9a_winners_curse.csv`, `Table9b_*.csv` |
-| Table 10 (vs. RS and XGBoost default) | `results/tables/Table10_vs_random_search_and_default.csv` |
-| Figures 1–9 | `results/figures/Fig1_*` … `Fig9_*` |
-| Additional tables (repository only) | `results/tables/TableS4_*` … `TableS8_*` (landscape per condition, hyperparameter importance, winner's-curse model, compute cost, search time) |
-| Supplementary Tables S1, S2a–b, S3 (sensitivity) | `results/sensitivity/TableS1_dependency_aware.csv`, `TableS2a/b/c_*.csv`, `TableS3_structural_bias_no_fitness.csv` |
-| Supplementary Figure S1 | `results/robustness_mealpy/FigS1_robustness_mealpy.png` |
+**Main text**
+
+| Article | Content | File(s) |
+|---|---|---|
+| Table 1 | Positioning vs. literature | `manuscript/` (text table) |
+| Table 2 | Design of the 14 class-composition conditions | `results/tables/Table2_condition_design.csv` |
+| Table 3 | Search space (9 XGBoost hyperparameters) | `PARAM_SPACE` in `src/01_experiment_v5_2.py` |
+| Table 4 | Log–log models of noise, signal, and SNR | `results/tables/Table5_noise_signal_snr_models.csv` |
+| Table 5 | Effect of noise on landscape metrics | `results/tables/Table6a_*.csv`, `Table6b_*.csv` |
+| Table 6 | Flip test (incl. TPE) | `results/tables/Table7_flip_test.csv`; bound fractions from `results/tidy/optimizers.csv` |
+| Table 7 | Winner's curse (incl. TPE) | `results/tables/Table9a_winners_curse.csv`, `Table9b_*.csv` |
+| Table 8 | Re-evaluated wF1 vs. RS and default XGBoost (incl. TPE) | `results/tables/Table10_vs_random_search_and_default.csv` |
+| Figure 1 | Conceptual framework | `results/figures/Fig1_framework.*` |
+| Figure 2 | Noise/signal mechanism | `results/figures/Fig2_noise_signal_mechanism.*` |
+| Figure 3 | Validation of the noise manipulation | `results/figures/Fig3_noise_manipulation.*` |
+| Figure 4 | Landscape vs. noise | `results/figures/Fig4_landscape_vs_noise.*` |
+| Figure 5 | Search behaviour | `results/figures/Fig6_search_behaviour.*` |
+| Figure 6 | Flip test and boundary bias | `results/figures/Fig7_flip_test_boundary_bias.*` |
+| Figure 7 | Winner's curse | `results/figures/Fig8_winners_curse.*` |
+| Figure 8 | Forest plot vs. Random Search | `results/figures/Fig9_forest_vs_random_search.*` |
+
+**Supplementary Material**
+
+| Article | Content | File(s) |
+|---|---|---|
+| Table S1 | Noise, signal, SNR, ICC, Kendall τ per condition | `results/tables/Table4_noise_per_condition*.csv` |
+| Table S2 | Implementation robustness check (mealpy 3.0.1, 12 units) | `results/robustness_mealpy/Table8_robustness_mealpy.csv` |
+| Table S3 | Dependency-aware analyses (hierarchical bootstrap, condition level, leave-one-dataset-out) | `results/sensitivity/TableS1_dependency_aware.csv` |
+| Table S4a–b | Noise model and landscape effect for wF1, minority F1, and MCC | `results/sensitivity/TableS2a_*.csv`, `TableS2b_*.csv` (`TableS2c_*.csv`: SNR agreement between metrics) |
+| Table S5 | Structural bias without fitness information (random / constant fitness) | `results/sensitivity/TableS3_structural_bias_no_fitness.csv` |
+| Figure S1 | Hyperparameter importance | `results/figures/Fig5_hyperparameter_importance.*` |
+| Figure S2 | Final-population positions, own code vs. mealpy | `results/robustness_mealpy/FigS1_robustness_mealpy.*` |
+
+**Repository only** (not in the article): `results/tables/TableS4_*` … `TableS8_*` (landscape per condition, hyperparameter
+importance per unit, winner's-curse model, compute cost, search time per optimizer).
+
+`manuscript/Paper2_Figures_Tables_EN.docx` collects all tables and figures with English captions.
 
 Tables and figures are produced in English by default. Set the environment variable `P2_LANG=id` to produce the
 Indonesian versions used in the Indonesian manuscript.
 
 ## Sensitivity analyses
 
-* **Dependence between units.** Runs within a condition share a data source, so the main paired results are re-tested with a
+* **Dependence between units (Table S3).** Runs within a condition share a data source, so the main paired results are re-tested with a
   hierarchical bootstrap (dataset → condition → run), Wilcoxon tests on condition means (14 conditions), and
   leave-one-dataset-out. The SMA flip-test effect is positive in 14/14 conditions.
-* **Fitness metric.** Noise, SNR, and landscape metrics are recomputed with minority F1 and MCC from the stored per-evaluation
+* **Fitness metric (Tables S4a–b).** Noise, SNR, and landscape metrics are recomputed with minority F1 and MCC from the stored per-evaluation
   scores. The effect of noise on the landscape holds for all three metrics; the class-count mechanism is metric-specific
   (with minority F1/MCC, the minority count dominates).
-* **Structural bias without fitness information.** On random or constant fitness, SMA (own code and mealpy) collapses towards the
+* **Structural bias without fitness information (Table S5).** On random or constant fitness, SMA (own code and mealpy) collapses towards the
   coordinate origin (lower bound in [0,1], centre in [−1,1]); BFO and centred SMA do not. HHO's bias depends on whether greedy
   selection is used (absent in the original equations, added in mealpy).
 
@@ -130,7 +153,7 @@ P2_RUN_MODE=full P2_WORKERS=4 P2_DATA_DIR=./data P2_OUTPUT_DIR=./outputs python 
 ```
 
 **The TPE baseline (≈ 3 h for 140 units with 2 workers):** run `notebooks/05_baseline_tpe.ipynb`; `02_analysis` picks up
-`results/baseline_tpe/units` automatically and adds TPE to Tables 7, 9, 10 and Figures 7, 9 as a separate test family.
+`results/baseline_tpe/units` automatically and adds TPE to the flip-test, winner's-curse, and vs-RS tables and figures (article Tables 6–8, Figures 6 and 8) as a separate test family.
 
 **The mealpy robustness check (≈ 30 min with 2 workers):** run `notebooks/03_robustness_mealpy.ipynb`; it re-uses the
 same units (seeds, subsampling, CV partitions) and pairs its results with `results/units`.
