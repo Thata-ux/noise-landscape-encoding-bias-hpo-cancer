@@ -213,5 +213,4 @@ Code: MIT (see `LICENSE`). Datasets keep the licences of their original sources 
 
 ## Acknowledgement
 
-The authors gratefully acknowledge the research funding provided by the Foundation of Universitas Aisyah Pringsewu
-(Yayasan Aisyah Lampung).
+-
