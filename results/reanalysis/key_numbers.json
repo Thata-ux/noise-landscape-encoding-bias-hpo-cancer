@@ -1,0 +1,196 @@
+{
+ "share_partition_median_all": 0.4004668880527423,
+ "share_partition_median_by_scheme": {
+  "cv5x1": 0.413,
+  "cv5x3": 0.381
+ },
+ "snr_rank_over_snr_median": 1.7426321594770724,
+ "spearman_snr_vs_snr_rank": 0.9775427589559488,
+ "n_units_snr0": 2,
+ "thyroid_frac_unique_mean": 0.7315,
+ "other_frac_unique_mean": 0.8485909090909091,
+ "rho_unique_vs_r2": 0.5959077781876563,
+ "neutrality": [
+  {
+   "threshold": "ambang \u03c3_noise skema sendiri (naskah)",
+   "median_delta": -0.05051,
+   "n_neg": 97,
+   "n": 140,
+   "p": 0.0
+  },
+  {
+   "threshold": "ambang tetap = \u03c3_noise cv5x1 pasangan",
+   "median_delta": 0.11616,
+   "n_neg": 9,
+   "n": 140,
+   "p": 0.0
+  },
+  {
+   "threshold": "ambang absolut 0.001",
+   "median_delta": 0.0101,
+   "n_neg": 63,
+   "n": 140,
+   "p": 0.74655
+  },
+  {
+   "threshold": "ambang absolut 0.0025",
+   "median_delta": 0.12626,
+   "n_neg": 22,
+   "n": 140,
+   "p": 0.0
+  },
+  {
+   "threshold": "ambang absolut 0.005",
+   "median_delta": 0.15152,
+   "n_neg": 10,
+   "n": 140,
+   "p": 0.0
+  }
+ ],
+ "bias_verdicts": [
+  {
+   "fitness": "acak",
+   "method": "RS",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.5,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.243
+  },
+  {
+   "fitness": "acak",
+   "method": "BFO",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.5,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.126
+  },
+  {
+   "fitness": "acak",
+   "method": "HHO",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.134,
+   "frac_dims_lower": 0.59,
+   "frac_dims_center": 0.006
+  },
+  {
+   "fitness": "acak",
+   "method": "SMA",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.077,
+   "frac_dims_lower": 0.464,
+   "frac_dims_center": 0.004
+  },
+  {
+   "fitness": "acak",
+   "method": "SMAc",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.5,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.514
+  },
+  {
+   "fitness": "acak",
+   "method": "SMAm",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.501,
+   "frac_dims_lower": 0.002,
+   "frac_dims_center": 0.081
+  },
+  {
+   "fitness": "acak",
+   "method": "SMAb",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.499,
+   "frac_dims_lower": 0.053,
+   "frac_dims_center": 0.041
+  },
+  {
+   "fitness": "acak",
+   "method": "DE",
+   "dims_reject_CvM": 2,
+   "centroid_mean": 0.496,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.106
+  },
+  {
+   "fitness": "acak",
+   "method": "CMAES",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.504,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.036
+  },
+  {
+   "fitness": "konstan",
+   "method": "RS",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.5,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.243
+  },
+  {
+   "fitness": "konstan",
+   "method": "BFO",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.499,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.208
+  },
+  {
+   "fitness": "konstan",
+   "method": "HHO",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.049,
+   "frac_dims_lower": 0.716,
+   "frac_dims_center": 0.003
+  },
+  {
+   "fitness": "konstan",
+   "method": "SMA",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.014,
+   "frac_dims_lower": 0.707,
+   "frac_dims_center": 0.0
+  },
+  {
+   "fitness": "konstan",
+   "method": "SMAc",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.5,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.896
+  },
+  {
+   "fitness": "konstan",
+   "method": "SMAm",
+   "dims_reject_CvM": 9,
+   "centroid_mean": 0.499,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.272
+  },
+  {
+   "fitness": "konstan",
+   "method": "SMAb",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.49,
+   "frac_dims_lower": 0.018,
+   "frac_dims_center": 0.045
+  },
+  {
+   "fitness": "konstan",
+   "method": "DE",
+   "dims_reject_CvM": 7,
+   "centroid_mean": 0.513,
+   "frac_dims_lower": 0.003,
+   "frac_dims_center": 0.064
+  },
+  {
+   "fitness": "konstan",
+   "method": "CMAES",
+   "dims_reject_CvM": 0,
+   "centroid_mean": 0.495,
+   "frac_dims_lower": 0.0,
+   "frac_dims_center": 0.047
+  }
+ ]
+}
