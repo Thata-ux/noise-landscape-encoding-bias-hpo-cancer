@@ -1,3 +1,28 @@
+TY  - CPAPER
+AU  - Chen, Tianqi
+AU  - Guestrin, Carlos
+TI  - XGBoost: A Scalable Tree Boosting System
+T2  - Proc. of the 22nd ACM SIGKDD International Conf. on Knowledge Discovery and Data Mining
+SP  - 785
+EP  - 794
+PY  - 2016
+DO  - 10.1145/2939672.2939785
+ID  - chen2016
+ER  - 
+
+TY  - CPAPER
+AU  - Grinsztajn, Léo
+AU  - Oyallon, Edouard
+AU  - Varoquaux, Gaël
+TI  - Why Do Tree-Based Models Still Outperform Deep Learning on Typical Tabular Data?
+T2  - Advances in Neural Information Processing Systems
+VL  - 35
+SP  - 507
+EP  - 520
+PY  - 2022
+ID  - grinsztajn2022
+ER  - 
+
 TY  - JOUR
 AU  - Bray, Freddie
 AU  - Laversanne, Mathieu
@@ -15,18 +40,6 @@ EP  - 263
 PY  - 2024
 DO  - 10.3322/caac.21834
 ID  - bray2024
-ER  - 
-
-TY  - CPAPER
-AU  - Chen, Tianqi
-AU  - Guestrin, Carlos
-TI  - XGBoost: A Scalable Tree Boosting System
-T2  - Proc. of the 22nd ACM SIGKDD International Conf. on Knowledge Discovery and Data Mining
-SP  - 785
-EP  - 794
-PY  - 2016
-DO  - 10.1145/2939672.2939785
-ID  - chen2016
 ER  - 
 
 TY  - JOUR
@@ -107,6 +120,19 @@ PY  - 2012
 ID  - bergstra2012
 ER  - 
 
+TY  - CPAPER
+AU  - Schneider, Lennart
+AU  - Bischl, Bernd
+AU  - Feurer, Matthias
+TI  - Overtuning in Hyperparameter Optimization
+T2  - Proc. of the Fourth International Conference on Automated Machine Learning, PMLR
+VL  - 293
+SP  - 17/1
+EP  - 43
+PY  - 2025
+ID  - schneider2025
+ER  - 
+
 TY  - JOUR
 AU  - Passino, Kevin M.
 TI  - Biomimicry of Bacterial Foraging for Distributed Optimization and Control
@@ -151,6 +177,34 @@ EP  - 323
 PY  - 2020
 DO  - 10.1016/j.future.2020.03.055
 ID  - li2020
+ER  - 
+
+TY  - JOUR
+AU  - Zivkovic, M.
+AU  - Tair, M.
+AU  - Venkatachalam, K.
+AU  - Bacanin, N.
+AU  - Hubálovský, Š.
+AU  - Trojovský, P.
+TI  - Novel Hybrid Firefly Algorithm: An Application to Enhance XGBoost Tuning for Intrusion Detection Classification
+JO  - PeerJ Computer Science
+VL  - 8
+SP  - e956
+PY  - 2022
+DO  - 10.7717/peerj-cs.956
+ID  - zivkovic2022
+ER  - 
+
+TY  - JOUR
+AU  - Subaşı, Nadir
+TI  - Optimizing XGBoost via mSMA_plus: A Novel Meta-Heuristic Approach for High-Precision Multiclass Dry Bean Classification
+JO  - Biomimetics
+VL  - 11
+IS  - 6
+SP  - 379
+PY  - 2026
+DO  - 10.3390/biomimetics11060379
+ID  - subasi2026
 ER  - 
 
 TY  - JOUR
@@ -213,19 +267,34 @@ ID  - wei2024
 ER  - 
 
 TY  - JOUR
-AU  - Zivkovic, M.
-AU  - Tair, M.
-AU  - Venkatachalam, K.
-AU  - Bacanin, N.
-AU  - Hubálovský, Š.
-AU  - Trojovský, P.
-TI  - Novel Hybrid Firefly Algorithm: An Application to Enhance XGBoost Tuning for Intrusion Detection Classification
-JO  - PeerJ Computer Science
-VL  - 8
-SP  - e956
-PY  - 2022
-DO  - 10.7717/peerj-cs.956
-ID  - zivkovic2022
+AU  - Singh, Jagandeep
+AU  - Sandhu, Jasminder Kaur
+AU  - Kumar, Yogesh
+TI  - Metaheuristic-Based Hyperparameter Optimization for Multi-Disease Detection and Diagnosis in Machine Learning
+JO  - Service Oriented Computing and Applications
+VL  - 18
+IS  - 2
+SP  - 163
+EP  - 182
+PY  - 2024
+DO  - 10.1007/s11761-023-00382-8
+ID  - singh2024
+ER  - 
+
+TY  - JOUR
+AU  - Kumar, Manoj
+AU  - Mohd, Noor
+AU  - Shivam, G.
+AU  - Goyal, Ankur
+AU  - Parashar, Deepak
+AU  - Khan, Rijwan
+TI  - Hybrid Aquila Optimizer–Harris Hawks Optimization for CNN Hyperparameter Tuning in Brain Tumor Classification
+JO  - Scientific Reports
+VL  - 16
+SP  - 12799
+PY  - 2026
+DO  - 10.1038/s41598-026-43329-7
+ID  - kumar2026
 ER  - 
 
 TY  - JOUR
@@ -307,16 +376,38 @@ ID  - sorensen2015
 ER  - 
 
 TY  - JOUR
-AU  - Kudela, Jakub
-TI  - A Critical Problem in Benchmarking and Analysis of Evolutionary Computation Methods
-JO  - Nature Machine Intelligence
-VL  - 4
-IS  - 12
-SP  - 1238
-EP  - 1245
+AU  - Aranha, Claus
+AU  - Camacho Villalón, Christian L.
+AU  - Campelo, Felipe
+AU  - Dorigo, Marco
+AU  - Ruiz, Rubén
+AU  - Sevaux, Marc
+AU  - Sörensen, Kenneth
+AU  - Stützle, Thomas
+TI  - Metaphor-Based Metaheuristics, a Call for Action: The Elephant in the Room
+JO  - Swarm Intelligence
+VL  - 16
+IS  - 1
+SP  - 1
+EP  - 6
 PY  - 2022
-DO  - 10.1038/s42256-022-00579-0
-ID  - kudela2022
+DO  - 10.1007/s11721-021-00202-9
+ID  - aranha2022
+ER  - 
+
+TY  - JOUR
+AU  - Camacho-Villalón, Christian L.
+AU  - Dorigo, Marco
+AU  - Stützle, Thomas
+TI  - Exposing the Grey Wolf, Moth-Flame, Whale, Firefly, Bat, and Antlion Algorithms: Six Misleading Optimization Techniques Inspired by Bestial Metaphors
+JO  - International Transactions in Operational Research
+VL  - 30
+IS  - 6
+SP  - 2945
+EP  - 2971
+PY  - 2023
+DO  - 10.1111/itor.13176
+ID  - camacho2023
 ER  - 
 
 TY  - JOUR
@@ -331,6 +422,119 @@ EP  - 82
 PY  - 1997
 DO  - 10.1109/4235.585893
 ID  - wolpert1997
+ER  - 
+
+TY  - JOUR
+AU  - Kononova, Anna V.
+AU  - Corne, David W.
+AU  - De Wilde, Philippe
+AU  - Shneer, Vsevolod
+AU  - Caraffini, Fabio
+TI  - Structural Bias in Population-Based Algorithms
+JO  - Information Sciences
+VL  - 298
+SP  - 468
+EP  - 490
+PY  - 2015
+DO  - 10.1016/j.ins.2014.11.035
+ID  - kononova2015
+ER  - 
+
+TY  - JOUR
+AU  - Piotrowski, Adam P.
+AU  - Napiorkowski, Jaroslaw J.
+TI  - Searching for Structural Bias in Particle Swarm Optimization and Differential Evolution Algorithms
+JO  - Swarm Intelligence
+VL  - 10
+IS  - 4
+SP  - 307
+EP  - 353
+PY  - 2016
+DO  - 10.1007/s11721-016-0129-y
+ID  - piotrowski2016
+ER  - 
+
+TY  - JOUR
+AU  - Vermetten, Diederick
+AU  - van Stein, Bas
+AU  - Caraffini, Fabio
+AU  - Minku, Leandro L.
+AU  - Kononova, Anna V.
+TI  - BIAS: A Toolbox for Benchmarking Structural Bias in the Continuous Domain
+JO  - IEEE Transactions on Evolutionary Computation
+VL  - 26
+IS  - 6
+SP  - 1380
+EP  - 1393
+PY  - 2022
+DO  - 10.1109/TEVC.2022.3189848
+ID  - vermetten2022
+ER  - 
+
+TY  - CPAPER
+AU  - van Stein, Bas
+AU  - Vermetten, Diederick
+AU  - Caraffini, Fabio
+AU  - Kononova, Anna V.
+TI  - Deep BIAS: Detecting Structural Bias Using Explainable AI
+T2  - Proc. of the Companion Conference on Genetic and Evolutionary Computation (GECCO ’23 Companion)
+PY  - 2023
+DO  - 10.1145/3583133.3590551
+ID  - vanstein2023
+ER  - 
+
+TY  - GEN
+AU  - Kudela, Jakub
+AU  - van Stein, Niki
+AU  - Bäck, Thomas
+AU  - Kononova, Anna V.
+TI  - Structural Bias in Multi-Objective Optimisation
+T2  - arXiv preprint arXiv:2602.06742
+PY  - 2026
+ID  - kudela2026
+ER  - 
+
+TY  - JOUR
+AU  - Niu, Peifeng
+AU  - Niu, Songpeng
+AU  - Liu, Nan
+AU  - Chang, Lingfang
+TI  - The Defect of the Grey Wolf Optimization Algorithm and Its Verification Method
+JO  - Knowledge-Based Systems
+VL  - 171
+SP  - 37
+EP  - 43
+PY  - 2019
+DO  - 10.1016/j.knosys.2019.01.018
+ID  - niu2019
+ER  - 
+
+TY  - JOUR
+AU  - Castelli, Mauro
+AU  - Manzoni, Luca
+AU  - Mariot, Luca
+AU  - Nobile, Marco S.
+AU  - Tangherloni, Andrea
+TI  - Salp Swarm Optimization: A Critical Review
+JO  - Expert Systems with Applications
+VL  - 189
+SP  - 116029
+PY  - 2022
+DO  - 10.1016/j.eswa.2021.116029
+ID  - castelli2022
+ER  - 
+
+TY  - JOUR
+AU  - Kudela, Jakub
+TI  - A Critical Problem in Benchmarking and Analysis of Evolutionary Computation Methods
+JO  - Nature Machine Intelligence
+VL  - 4
+IS  - 12
+SP  - 1238
+EP  - 1245
+PY  - 2022
+DO  - 10.1038/s42256-022-00579-0
+ID  - kudela2022
 ER  - 
 
 TY  - JOUR
@@ -462,6 +666,20 @@ SP  - 754
 EP  - 762
 PY  - 2014
 ID  - hutter2014
+ER  - 
+
+TY  - CPAPER
+AU  - Werth, Bernhard
+AU  - Pitzer, Erik
+AU  - Ostermayer, Gerald
+AU  - Affenzeller, Michael
+TI  - Quasi-Bistability of Walk-Based Landscape Measures in Stochastic Fitness Landscapes
+T2  - Proc. of the Genetic and Evolutionary Computation Conference (GECCO)
+SP  - 1087
+EP  - 1094
+PY  - 2018
+DO  - 10.1145/3205455.3205471
+ID  - werth2018
 ER  - 
 
 TY  - DATA
@@ -746,6 +964,52 @@ ID  - seabold2010
 ER  - 
 
 TY  - JOUR
+AU  - Storn, Rainer
+AU  - Price, Kenneth
+TI  - Differential Evolution – A Simple and Efficient Heuristic for Global Optimization over Continuous Spaces
+JO  - Journal of Global Optimization
+VL  - 11
+IS  - 4
+SP  - 341
+EP  - 359
+PY  - 1997
+DO  - 10.1023/A:1008202821328
+ID  - storn1997
+ER  - 
+
+TY  - JOUR
+AU  - Hansen, Nikolaus
+AU  - Ostermeier, Andreas
+TI  - Completely Derandomized Self-Adaptation in Evolution Strategies
+JO  - Evolutionary Computation
+VL  - 9
+IS  - 2
+SP  - 159
+EP  - 195
+PY  - 2001
+DO  - 10.1162/106365601750190398
+ID  - hansen2001
+ER  - 
+
+TY  - CPAPER
+AU  - Ke, Guolin
+AU  - Meng, Qi
+AU  - Finley, Thomas
+AU  - Wang, Taifeng
+AU  - Chen, Wei
+AU  - Ma, Weidong
+AU  - Ye, Qiwei
+AU  - Liu, Tie-Yan
+TI  - LightGBM: A Highly Efficient Gradient Boosting Decision Tree
+T2  - Advances in Neural Information Processing Systems
+VL  - 30
+SP  - 3146
+EP  - 3154
+PY  - 2017
+ID  - ke2017
+ER  - 
+
+TY  - JOUR
 AU  - Kerschke, Pascal
 AU  - Hoos, Holger H.
 AU  - Neumann, Frank
@@ -760,4 +1024,3 @@ PY  - 2019
 DO  - 10.1162/evco_a_00242
 ID  - kerschke2019
 ER  - 
-
